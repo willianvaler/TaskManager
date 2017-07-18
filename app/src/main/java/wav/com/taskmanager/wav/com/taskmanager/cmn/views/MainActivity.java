@@ -1,5 +1,6 @@
 package wav.com.taskmanager.wav.com.taskmanager.cmn.views;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -84,6 +85,9 @@ public class MainActivity extends AppCompatActivity
         switch(id )
         {
             case R.id.nav_tasks:
+                Intent intent = new Intent(this, TaskView.class);
+                startActivity(intent);
+                break;
             case R.id.nav_habits:
             default:
                 break;

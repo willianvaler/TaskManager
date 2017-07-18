@@ -1,20 +1,20 @@
 [
   {
-    "id":0,
-    "type":"",
-    "name":"",
-    "difficulty":0,
-    "objectiveID":0,
-    "strategyId":0,
-    "modelID":0
+    "id":"0",
+    "type":"0",
+    "name":"teste 1",
+    "difficulty":"0",
+    "objectiveID":"0",
+    "strategyId":"0",
+    "modelID":"0"
   },
   {
-    "id":1,
-    "type":"",
-    "name":"",
-    "difficulty":0,
-    "objectiveID":0,
-    "strategyId":0,
-    "modelID":0
+    "id":"1",
+    "type":"0",
+    "name":"teste 2",
+    "difficulty":"0",
+    "objectiveID":"0",
+    "strategyId":"0",
+    "modelID":"0"
   }
 ]
