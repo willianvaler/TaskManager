@@ -41,6 +41,8 @@ import java.util.List;
 
 import wav.com.taskmanager.R;
 import wav.com.taskmanager.wav.com.taskmanager.cmn.daos.TaskDao;
+import wav.com.taskmanager.wav.com.taskmanager.cmn.entities.Task;
+import wav.com.taskmanager.wav.com.taskmanager.cmn.util.Utils;
 
 import static android.Manifest.permission.READ_CONTACTS;
 
@@ -69,7 +71,7 @@ public class LoginActivity extends AppCompatActivity
 //            e.printStackTrace();
 //        }
 
-        TaskDao.loadAllTasks(this.getApplicationContext() );
+        Utils.loadAllFromJson( this.getApplicationContext(), Task.class, "tasks.json" );
 
         goMainActivity();
 

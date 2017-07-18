@@ -1,6 +1,7 @@
 package wav.com.taskmanager.wav.com.taskmanager.cmn.views;
 
 import android.os.Bundle;
+import android.support.constraint.ConstraintLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
@@ -19,6 +20,9 @@ public class TaskView extends AppCompatActivity
         setContentView(R.layout.activity_task_view);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        ConstraintLayout cl = (ConstraintLayout) findViewById(R.id.content_task_constraint);
+        //cl.
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener()
